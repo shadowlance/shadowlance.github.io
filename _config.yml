@@ -9,7 +9,6 @@ permalink:           pretty
 # Setup
 title:               Zhupiter
 tagline:             '追梦不怠'
-description:         '图片占位处'
 url:                 http://shadowlance.github.iio
 baseurl:             ''
 paginate:            10

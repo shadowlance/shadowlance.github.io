@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Atlas Event Data Model
-tag: physics, atlas experiment
+category: Physics
 ---
 atlas在run2运行时，对其分析框架进行了一次更新，引入了xAOD格式。在引入此格式后，一个完整的atlas实验数据格式流程如下。
 ![atlas-experiment-data-chain](/assets/img/20170809/data-chain.png)

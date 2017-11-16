@@ -5,7 +5,7 @@ category: Physics
 ---
 atlas在run2运行时，对其分析框架进行了一次更新，引入了xAOD格式。在引入此格式后，一个完整的atlas实验数据格式流程如下。
 ![atlas-experiment-data-chain](/assets/img/20170809/data-chain.png)
-对于data处理流程，则与一般流程相似。触发判选，全重建，校准等，不再赘述。值得注意的是在全重建后，有3个对于实验分析者来说重要的系统输出：
+对于data处理流程，则与一般流程相似。触发判选，全重建，校准等，不再赘述。值得注意的是在全重建后，现在系统会给出3个对于实验分析者来说重要的系统输出：
 
 - AOD: Analysis Object Data,就是我们分析所要使用的各个粒子，物理量的信息，也是分析中最为重要的信息。
 - Hist: 全重建时产生的关于data的一些直方图，主要用来得出data quality,重建可信度等信息.
@@ -66,4 +66,4 @@ IParticle则是所有粒子，物理量的虚基类。里面存有诸如e(xAOD::
         MetaDataHdrForm;1
         MetaDataHdr;1
 
-所有的实验/模拟事例均存在CollectionTree中，这对一个初步的实验分析来说已经足够，其他的tree我们可以暂时不管。在CollectionTree中类似“DiTauJets/”的就表示是一个container(通俗的说就是C++的Vector)，里面含有这种对象的所有事例，比如这个是DataVector<xAOD::DiTauJets>。而像”StausAux/“这种后缀有”Aux”的就表示这是一个含辅助数据的container。类似ElecteonsAuxDyn.e225的就是单独列出的辅助数据了。
+所有的实验/模拟事例均存在CollectionTree中，对于一个初步的实验分析来说这些已经足够，所以其他的tree我们可以暂时不管。在CollectionTree中类似“DiTauJets/”的就表示是一个container(通俗的说就是C++的Vector)，在其中含有这种对象的所有事例，比如这个是DataVector<xAOD::DiTauJets>。而像”StausAux/“这种后缀有”Aux”的就表示这是一个含辅助数据的container。类似ElecteonsAuxDyn.e225的就是单独列出的辅助数据了。

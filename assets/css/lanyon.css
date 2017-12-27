@@ -316,12 +316,7 @@ a.sidebar-nav-item:focus {
   margin-bottom: 4em;
 }
 
-/* Blog post or page title */
-.page-title,
-.post-title,
-.post-title a {
-  color: #303030;
-}
+/* Blog post or page title*/
 .page-title,
 .post-title {
   margin-top: 0;
@@ -452,6 +447,9 @@ a.pagination-item:hover {
   background-color: #ac4142;
 }
 .theme-base-08 .container a,
+.theme-base-08 .post-title,
+.theme-base-08 .page-title,
+.theme-base-08 .post-title a,
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
   color: #ac4142;
@@ -464,6 +462,9 @@ a.pagination-item:hover {
   background-color: #d28445;
 }
 .theme-base-09 .container a,
+.theme-base-09 .post-title,
+.theme-base-09 .page-title,
+.theme-base-09 .post-title a,
 .theme-base-09 .sidebar-toggle,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
@@ -476,6 +477,9 @@ a.pagination-item:hover {
   background-color: #f4bf75;
 }
 .theme-base-0a .container a,
+.theme-base-0a .post-title,
+.theme-base-0a .page-title,
+.theme-base-0a .post-title a,
 .theme-base-0a .sidebar-toggle,
 .theme-base-0a .related-posts li a:hover {
   color: #f4bf75;
@@ -488,6 +492,9 @@ a.pagination-item:hover {
   background-color: #90a959;
 }
 .theme-base-0b .container a,
+.theme-base-0b .post-title,
+.theme-base-0b .page-title,
+.theme-base-0b .post-title a,
 .theme-base-0b .sidebar-toggle,
 .theme-base-0b .related-posts li a:hover {
   color: #90a959;
@@ -500,6 +507,9 @@ a.pagination-item:hover {
   background-color: #75b5aa;
 }
 .theme-base-0c .container a,
+.theme-base-0c .post-title,
+.theme-base-0c .page-title,
+.theme-base-0c .post-title a,
 .theme-base-0c .sidebar-toggle,
 .theme-base-0c .related-posts li a:hover {
   color: #75b5aa;
@@ -512,6 +522,9 @@ a.pagination-item:hover {
   background-color: #6a9fb5;
 }
 .theme-base-0d .container a,
+.theme-base-0d .post-title,
+.theme-base-0d .page-title,
+.theme-base-0d .post-title a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
   color: #6a9fb5;
@@ -524,6 +537,9 @@ a.pagination-item:hover {
   background-color: #aa759f;
 }
 .theme-base-0e .container a,
+.theme-base-0e .post-title,
+.theme-base-0e .page-title,
+.theme-base-0e .post-title a,
 .theme-base-0e .sidebar-toggle,
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
@@ -536,6 +552,9 @@ a.pagination-item:hover {
   background-color: #8f5536;
 }
 .theme-base-0f .container a,
+.theme-base-0f .post-title,
+.theme-base-0f .page-title,
+.theme-base-0f .post-title a,
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;

@@ -79,6 +79,7 @@ read < tmp
 ```
 [zhucz@atlasui01 test]$read < tmp
 [zhucz@atlasui01 test]$read < tmp
+[zhucz@atlasui01 test]$read < tmp
 [zhucz@atlasui01 test]$echo > tmp
 [zhucz@atlasui01 test]$echo > tmp
 [zhucz@atlasui01 test]$echo > tmp
@@ -157,7 +158,7 @@ done
 wait
 exec 9<&-       #结束后撤销文件描述符的读权限
 exec 9>&-       #撤销文件描述符的写权限
-echo "all done!"
+echo "all done"
 ```
 
 这样，终于可以即提高并发度节省时间，又不会把服务器撑爆被人投诉啦。

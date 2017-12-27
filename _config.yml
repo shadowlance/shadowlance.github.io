@@ -13,3 +13,6 @@ url:                 http://shadowlance.github.iio
 baseurl:             ''
 paginate:            10
 paginate_path:       "page:num"
+
+# readmore
+excerpt_separator:  '<!-- more -->'

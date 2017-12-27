@@ -10,7 +10,7 @@ atlas在run2运行时，对其分析框架进行了一次更新，引入了xAOD�
 - AOD: Analysis Object Data,就是我们分析所要使用的各个粒子，物理量的信息，也是分析中最为重要的信息。
 - Hist: 全重建时产生的关于data的一些直方图，主要用来得出data quality,重建可信度等信息.
 - ESD: 给出事例的重建细节，比如重建时某某探测器的工作状态，径迹重建的情况等。
-
+<!-- more -->
 最终得到的文件形式类似如下：
 ![data-format](/assets/img/20170809/data-format.png)
 对于MC模拟数据的处理流程，也是和一般分析一样经过smearing，模拟重建等。最终得到的文件形式类似如下：

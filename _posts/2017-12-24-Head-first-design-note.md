@@ -138,7 +138,7 @@ void draw(const std::string name){
 TH1F* GetHist(std::string name, std::string fileName, int rebinNum){
   TFile* f = new TFile((path+fileName).c_str());
   TH1F* hist = (TH1F*)f->Get(name.c_str());
-  hist->Sumw2();hist1->Rebin(10);
+  hist->Sumw2();
   hist->Rebin(rebinNum);
   //一些处理步骤
   ...
